@@ -466,73 +466,107 @@
 
     </section>
 
-   <!-- component -->
-<div class="container bg-gray-200 mx-auto w-full h-full">
-    <div class="relative wrap overflow-hidden p-10 h-full">
-        <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
+    <!-- Timeline Experience -->
+    <section id="experience" class="py-16 bg-gradient-to-br from-purple-600 via-indigo-600 to-purple-800 relative">
+        <!-- Lapisan glossy -->
+        <div class="absolute inset-0 bg-white bg-opacity-10 backdrop-blur-sm"></div>
+        <div class="relative max-w-5xl mx-auto px-6">
+           <h1 class="text-center text-white text-5xl md:text-6xl font-black drop-shadow-[0_4px_10px_rgba(0,0,0,0.7)]">
+  Pengalaman Akademik
+</h1>
 
-        <!-- right timeline -->
-        <div class="mb-8 flex justify-between items-center w-full right-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
-            </div>
-            <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                <h3 class="mb-3 font-bold text-gray-800 text-xl">Asisten Dosen Pemrograman Berorientasi Obyek I</h3>
-                <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                    Membimbing praktikum Java OOP dasar (class, object, inheritance, polymorphism). 
-                    Membantu mahasiswa melakukan debugging dan menyelesaikan tugas kecil berupa aplikasi desktop sederhana.
-                </p>
+            <div class="relative overflow-hidden p-6 h-full">
+                <!-- Garis Tengah - desktop only -->
+                <div
+                    class="border-l-2 border-white border-opacity-40 absolute h-full left-1/2 transform -translate-x-1/2 hidden md:block">
+                </div>
+                <!-- Garis Kiri - mobile only -->
+                <div class="border-l-2 border-white border-opacity-40 absolute h-full left-4 md:hidden"></div>
+
+                <!-- Item 1 -->
+                <div class="mb-12 flex items-center w-full md:justify-between">
+                    <!-- Mobile: content after dot -->
+                    <div
+                        class="w-8 h-8 bg-white text-purple-700 font-bold rounded-full shadow flex items-center justify-center z-20 mr-6 md:hidden">
+                        1</div>
+                    <!-- Desktop: spacer left -->
+                    <div class="w-5/12 hidden md:block"></div>
+                    <!-- Desktop: center dot -->
+                    <div
+                        class="z-20 items-center justify-center bg-white text-purple-700 font-bold w-8 h-8 rounded-full shadow hidden md:flex">
+                        1</div>
+                    <!-- Content -->
+                    <div class="bg-white bg-opacity-90 rounded-xl shadow-md p-6 flex-1 md:w-5/12 md:flex-none">
+                        <h3 class="font-semibold text-lg text-purple-900">Asisten Dosen – Pemrograman Berorientasi Obyek
+                            I</h3>
+                        <p class="text-sm text-gray-700 mt-2">Membimbing praktikum Java OOP dasar, membantu debugging,
+                            serta memberi arahan pada pembuatan project sederhana.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="mb-12 flex items-center w-full md:justify-between md:flex-row-reverse">
+                    <!-- Mobile: content after dot -->
+                    <div
+                        class="w-8 h-8 bg-white text-purple-700 font-bold rounded-full shadow flex items-center justify-center z-20 mr-6 md:hidden">
+                        2</div>
+                    <!-- Desktop: spacer right -->
+                    <div class="w-5/12 hidden md:block"></div>
+                    <!-- Desktop: center dot -->
+                    <div
+                        class="z-20 items-center justify-center bg-white text-purple-700 font-bold w-8 h-8 rounded-full shadow hidden md:flex">
+                        2</div>
+                    <!-- Content -->
+                    <div class="bg-white bg-opacity-90 rounded-xl shadow-md p-6 flex-1 md:w-5/12 md:flex-none">
+                        <h3 class="font-semibold text-lg text-purple-900">Asisten Dosen – Struktur Data Linear</h3>
+                        <p class="text-sm text-gray-700 mt-2">Membimbing mahasiswa pada materi <em>Stack</em> dan
+                            <em>Queue</em>, implementasi dengan Java, serta latihan operasi push, pop, enqueue, dequeue.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="mb-12 flex items-center w-full md:justify-between">
+                    <!-- Mobile: content after dot -->
+                    <div
+                        class="w-8 h-8 bg-white text-purple-700 font-bold rounded-full shadow flex items-center justify-center z-20 mr-6 md:hidden">
+                        3</div>
+                    <!-- Desktop: spacer left -->
+                    <div class="w-5/12 hidden md:block"></div>
+                    <!-- Desktop: center dot -->
+                    <div
+                        class="z-20 items-center justify-center bg-white text-purple-700 font-bold w-8 h-8 rounded-full shadow hidden md:flex">
+                        3</div>
+                    <!-- Content -->
+                    <div class="bg-white bg-opacity-90 rounded-xl shadow-md p-6 flex-1 md:w-5/12 md:flex-none">
+                        <h3 class="font-semibold text-lg text-purple-900">Asisten Dosen – Rekayasa Perangkat Lunak</h3>
+                        <p class="text-sm text-gray-700 mt-2">Mendampingi praktikum analisis kebutuhan, pembuatan UML,
+                            dan implementasi sistem sederhana berbasis web.</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="mb-12 flex items-center w-full md:justify-between md:flex-row-reverse">
+                    <!-- Mobile: content after dot -->
+                    <div
+                        class="w-8 h-8 bg-white text-purple-700 font-bold rounded-full shadow flex items-center justify-center z-20 mr-6 md:hidden">
+                        4</div>
+                    <!-- Desktop: spacer right -->
+                    <div class="w-5/12 hidden md:block"></div>
+                    <!-- Desktop: center dot -->
+                    <div
+                        class="z-20 items-center justify-center bg-white text-purple-700 font-bold w-8 h-8 rounded-full shadow hidden md:flex">
+                        4</div>
+                    <!-- Content -->
+                    <div class="bg-white bg-opacity-90 rounded-xl shadow-md p-6 flex-1 md:w-5/12 md:flex-none">
+                        <h3 class="font-semibold text-lg text-purple-900">Asisten Dosen – Struktur Data Non Linear</h3>
+                        <p class="text-sm text-gray-700 mt-2">Membimbing mahasiswa dalam materi <em>Tree</em> dan
+                            <em>Graph</em>, termasuk traversal dan implementasi algoritma dasar.</p>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!-- left timeline -->
-        <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
-            </div>
-            <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                <h3 class="mb-3 font-bold text-white text-xl">Asisten Dosen Struktur Data Linear</h3>
-                <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                    Membimbing mahasiswa memahami konsep Array, Stack (LIFO), dan Queue (FIFO). 
-                    Memberikan latihan implementasi push, pop, enqueue, dequeue dengan Java, serta mendampingi mahasiswa saat debugging.
-                </p>
-            </div>
-        </div>
-
-        <!-- right timeline -->
-        <div class="mb-8 flex justify-between items-center w-full right-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
-            </div>
-            <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                <h3 class="mb-3 font-bold text-gray-800 text-xl">Asisten Dosen Rekayasa Perangkat Lunak</h3>
-                <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                    Mendampingi mahasiswa dalam analisis kebutuhan perangkat lunak, pembuatan diagram UML (use case, class, activity), 
-                    dan implementasi sistem berbasis web sederhana menggunakan PHP & MySQL.
-                </p>
-            </div>
-        </div>
-
-        <!-- left timeline -->
-        <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-            <div class="order-1 w-5/12"></div>
-            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
-            </div>
-            <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                <h3 class="mb-3 font-bold text-white text-xl">Asisten Dosen Struktur Data Non Linear</h3>
-                <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                    Membimbing mahasiswa dalam materi Tree dan Graph, termasuk traversal (DFS, BFS) serta implementasi algoritma pencarian dasar. 
-                    Memberikan arahan praktik coding dengan Java untuk kasus nyata seperti simulasi jaringan dan hierarki organisasi.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
